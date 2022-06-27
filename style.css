@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+}
+
+/*Caracteristicas al header*/
+/*Aun no tengo bien definido si hacerlo con un banner, o no conviene
+o dejar el nav solo */
+header {
+    background-image: url(https://thumbs.dreamstime.com/b/banner-de-lugar-trabajo-con-despertador-y-papelera-copia-espacio-fondo-amarillo-fotograf%C3%ADa-alta-calidad-207685664.jpg) ;
+    background-size: 60vh;
+    height: 25vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.logo, .logo2 {
+    width: 150px;
+}
+
+
+
+.cabecera__lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0.5%;   
+}
+
+.cabecera__lista__item{
+    display: inline-block;
+    margin: 0.5%;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+.body {
+    margin-top: 25vh;
+}
+
+.conteiner {
+    background-color: rgba(207, 231, 255, 0.745);
+    display: grid;
+    grid-template-rows: 70px 1fr 1fr ;
+    grid-template-columns: 1fr;
+    gap: 5px;
+   
+}
+
+
+
+/*Al titulo principal le ponemos las caracteristicas, estilos*/
+.destacados {
+    font-family: 'Lobster', cursive; 
+    font-size: 50px;
+    display: flex; /* Alineamos el texto con Flex*/
+    align-items: center;
+    justify-content: center; 
+    grid-column: 1;
+}
+
+.bobinas{
+    grid-column: 1;
+    grid-row: 2;
+    height: 450px;
+    width: 250px;
+    padding-left: 2%;
+}
+
+.plasticos, .servilletas {
+    height: 250px;
+    width: 420px;
+}
+
+.servilletas {
+    padding-right: 5%;
+}
+.plasticos{
+    display: flex;
+    padding-right: 10%;
+
+}
+.contenedor1, .contenedor2, .contenedor3 {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border: 5px red solid;
+}
+
+.data2, .data3 {
+    display: flex;
+    align-self: center;
+}
+
+.data1 {
+    display: flex;
+    align-self: center;
+    padding-left: 5%;
+}
+
+/*Aqui intentamos darle las caracteristicas al footer*/
+footer {
+    background-color: red;
+    height: 200px;
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+
+}
+
+
+.logo2 { /*aqui intento subir el logo mas arriba pero no me sale como se debe
+    sin usar flexbox*/
+    width: 170px;
+    height: 150px;
+    margin-left: 155% ;
+    margin-top: 0px;
+    display: flex;
+
+
+}
+
+/* Poniendo la letra al texto de la seccion del medio */
+.data1, .data2, .data3 {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Lobster'
+}
+
+/*Texto del footer*/
+.contacto {
+    font-family: 'Bebas Neue', cursive;
+    display: grid;
+    grid-column: 1/2;
+    grid-row: 1/ span 2;
+}
+
+
+/*los logos de las redes, el tamaño*/
+.wpp, .insta {
+    width: 60px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.estamos {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    grid-area: categorias1;
+    display: flex;
+    justify-content: left;
+    
+}
+
+/*Seccion productos, la idea es hacer que esa*/
+
+.camisetas {
+    height: 250px;
+    width: 250px;
+    margin-left: 20%;
+}
+
+.bandejas {
+    height: 230px;
+    width: 250px;
+    margin-left: 55%;
+    padding-top: 20%;
+}
+
+.arranques {
+    height: 220px;
+    width: 250px;
+    margin-left: 20%; 
+}
+
+.descripcion {
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    margin-left: 20%;
+
+}
+
+.nosotros1, .nosotros2, .nosotros3, .nosotros4 {
+    height: 220px;
+    width: 250px;
+}
+
+ .nosotross {
+    background-color: rgba(207, 231, 255, 0.745);
+    display: grid;
+    grid-template-rows: 1fr 1fr  ;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px; 
+    border: 5px red solid;
+}
+
+.titulonosotros {
+    grid-row: 2/3;
+    grid-column:3;
+
+}
+
+.imagenes_nosotros {
+    grid-columns: 2/2;
+
+ 
+} 
+
