@@ -67,7 +67,9 @@ header nav ul li {
     grid-column: 1;
 }
 
-.bobinas{
+.bobinas:hover{
+     transform: scale(1.2);
+    transition: all 4s;
     grid-column: 1;
     grid-row: 2;
     height: 450px;
@@ -75,15 +77,19 @@ header nav ul li {
     padding-left: 2%;
 }
 
-.plasticos, .servilletas {
+.plasticos, .servilletas:hover {
+     transform: scale(1.2);
+    transition: all 4s;
     height: 250px;
     width: 420px;
 }
 
 .servilletas {
-    padding-right: 5%;
+     padding-right: 5%;
 }
-.plasticos{
+.plasticos:hover{
+    transform: scale(1.2);
+    transition: all 4s;
     display: flex;
     padding-right: 10%;
 
