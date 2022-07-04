@@ -54,9 +54,9 @@ header nav ul li {
     gap: 5px;
    
 }
-
+ 
 .bg-danta {
-    background-color: red;
+    background-color: rgb(255, 27, 27)
 }
 
 #carouselExampleFade {
