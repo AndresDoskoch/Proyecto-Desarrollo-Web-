@@ -24,24 +24,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+
+    <!--Conexion al servidor de Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">  
+
 </head>
 <body class="body">
     <!-- Header -->
     <header class="cabecera">
+        
         <img class="logo" src="../Proyecto 1/imagenes/logo1.png" alt="Logo de la empresa"> <!-- Logo de la empresa-->
-        <!-- <img src="" alt="banner lindo de la empresa">  Banner o foto en el header -->
-
-        <!--Menu principal / Enlaces y paginas-->
-        <nav>
-            <ul class="cabecera__lista">
-                <li class="cabecera__lista__item"><a href="index.html">Home</a></li>
-                <li class="cabecera__lista__item"><a href="productos.html">Productos</a></li>
-                <li class="cabecera__lista__item"><a href="descuentos.html">Descuentos</a></li>
-                <li class="cabecera__lista__item"><a href="nosotros.html">Nosotros</a></li>
-                <li class="cabecera__lista__item"><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+        <nav class="navbar navbar-expand-lg bg-danta">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="descuentos.html">Descuentos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
 
 
 
@@ -55,15 +71,36 @@
         <h1 class="destacados">NOSOTROS</h1>
        
         <div class="imagenes_nosotros">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../Proyecto 1/imagenes/empresa 1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Proyecto 1/imagenes/empresa.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../Proyecto 1/imagenes/empresa2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
 
         
-            <!--Representarìa un pequeño carousel de imagenes de la empresa-->
+            <!--Representarìa un pequeño carousel de imagenes de la empresa
             <img class="nosotros" src="../Proyecto 1/imagenes/empresa 1.jpg" alt="">
             <img class="nosotros" src="../Proyecto 1/imagenes/empresa.jpg" alt="">
             <img class="nosotros" src="../Proyecto 1/imagenes/empresa2.jpg" alt="">
         </div>
-            <!--O UN VIDEO DE LA EMPRESA, EL VIDEO ES A MODO DE DEMOSTRACION DE COMO IRÌA -->
-            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/7Cy2p2rF29U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            O UN VIDEO DE LA EMPRESA, EL VIDEO ES A MODO DE DEMOSTRACION DE COMO IRÌA 
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/7Cy2p2rF29U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 
         <div class="textonosotros">
@@ -102,7 +139,7 @@
         </section>
     
     </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     
 </body>
 </html>

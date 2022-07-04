@@ -55,6 +55,13 @@ header nav ul li {
    
 }
 
+.bg-danta {
+    background-color: red;
+}
+
+#carouselExampleFade {
+    scale: 150px;
+}
 
 
 /*Al titulo principal le ponemos las caracteristicas, estilos*/
@@ -67,9 +74,7 @@ header nav ul li {
     grid-column: 1;
 }
 
-.bobinas:hover{
-     transform: scale(1.2);
-    transition: all 4s;
+.bobinas{
     grid-column: 1;
     grid-row: 2;
     height: 450px;
@@ -77,9 +82,13 @@ header nav ul li {
     padding-left: 2%;
 }
 
-.plasticos, .servilletas:hover {
-     transform: scale(1.2);
-    transition: all 4s;
+.imagenc {
+
+    height: 500px;
+    width: 100%;
+
+}
+.plasticos, .servilletas{
     height: 250px;
     width: 420px;
 }
@@ -87,9 +96,7 @@ header nav ul li {
 .servilletas {
      padding-right: 5%;
 }
-.plasticos:hover{
-    transform: scale(1.2);
-    transition: all 4s;
+.plasticos{
     display: flex;
     padding-right: 10%;
 
