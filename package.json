@@ -1,0 +1,23 @@
+{
+  "name": "proyecto-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndresDoskoch/Proyecto-Desarrollo-Web-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndresDoskoch/Proyecto-Desarrollo-Web-/issues"
+  },
+  "homepage": "https://github.com/AndresDoskoch/Proyecto-Desarrollo-Web-#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.19"
+  }
+}
