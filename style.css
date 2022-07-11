@@ -11,27 +11,29 @@ a {
 /*Caracteristicas al header*/
 /*Aun no tengo bien definido si hacerlo con un banner, o no conviene
 o dejar el nav solo */
-header {
-    background-image: url(https://thumbs.dreamstime.com/b/banner-de-lugar-trabajo-con-despertador-y-papelera-copia-espacio-fondo-amarillo-fotograf%C3%ADa-alta-calidad-207685664.jpg) ;
-    background-size: 60vh;
-    height: 25vh;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
+@media only screen and (min-width:100px) { 
+    header {
+     background-image: url(https://thumbs.dreamstime.com/b/banner-de-lugar-trabajo-con-despertador-y-papelera-copia-espacio-fondo-amarillo-fotograf%C3%ADa-alta-calidad-207685664.jpg) ;
+     background-size: 60vh;
+     height: 25vh;
+     position: fixed;
+     width: 100%;
+     top: 0;
+ }
+}   
 .logo, .logo2 {
     width: 150px;
 }
 
 
-
-.cabecera__lista{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0.5%;   
-}
+@media only screen and (min-width: 100px) {
+    .cabecera__lista{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0.5%;  
+    }        
+}   
 
 .cabecera__lista__item{
     display: inline-block;
@@ -46,15 +48,19 @@ header nav ul li {
     margin-top: 25vh;
 }
 
-.conteiner {
+@media only screen and (min-width: 100px) {
+
+
+    .conteiner {
     background-color: rgba(207, 231, 255, 0.745);
     display: grid;
     grid-template-rows: 70px 1fr 1fr ;
     grid-template-columns: 1fr;
     gap: 5px;
    
+    }
 }
- 
+
 .bg-danta {
     background-color: rgb(255, 27, 27)
 }
