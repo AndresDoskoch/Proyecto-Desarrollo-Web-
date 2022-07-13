@@ -2,11 +2,11 @@ header{
 
     background-color: red;
     @media screen and {max-width: 500px);
-        background-color: orange;
+        background-color: $bg-home;
         
     }
     nav {
-        border: 2px solid rgb(133, 47, 47)
+        border: $border
         ul{
             list-style: circle;
             a{
@@ -17,4 +17,8 @@ header{
     }
 }
 
+$bg-home: red;
+$border: 2px black;
+
+@import "index";
 
