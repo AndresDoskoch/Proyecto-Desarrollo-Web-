@@ -1,0 +1,7 @@
+@mixin varios ($ancho, $display, $center) {
+    width: $ancho;
+    display: $display;
+    justify-content: $center;
+    align-items: center;
+    
+}
