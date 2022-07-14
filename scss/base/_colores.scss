@@ -1,0 +1,10 @@
+$color-primario: red;
+
+header {
+    background-color: $color-primario;
+
+    &:hover {
+        background-color: darken($color-primario, 15%);
+    }
+
+}
